@@ -6,7 +6,7 @@
 </div>
 
 <h1 style="margin: 0; font-size: 24px; color: #c9d1d9;">Akshai Vinu K</h1>
-<p style="margin: 0; font-size: 20px; color: #8b949e; font-weight: 300;">ksavinu</p>
+<p style="margin: 0; font-size: 20px; color: #8b949e; font-weight: 300;">akshaivinu</p>
 
 <a href="mailto:ksavinu121@gmail.com" class="gh-btn">Follow / Contact</a>
 

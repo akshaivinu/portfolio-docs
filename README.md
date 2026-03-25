@@ -85,8 +85,8 @@ Dynamic full-stack developer skilled in React, Next.js, Python FastAPI, Node.js,
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ksavinu&show_icons=true&theme=dark" alt="GitHub Stats" height="150" style="border-radius:6px; border: 1px solid #30363d;" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ksavinu&theme=dark&hide_border=true" alt="GitHub Streak" height="150" style="border-radius:6px; border: 1px solid #30363d;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=akshaivinu&show_icons=true&theme=dark" alt="GitHub Stats" height="150" style="border-radius:6px; border: 1px solid #30363d;" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshaivinu&theme=dark&hide_border=true" alt="GitHub Streak" height="150" style="border-radius:6px; border: 1px solid #30363d;" />
 </p>
 
 ### 🐍 GitHub Contributions
