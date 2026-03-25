@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Akshai Vinu K - Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Portfolio of Akshai Vinu K, Full-stack developer with strong UI/UX focus.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Docsify Theme: Vue (Clean and Minimal) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <!-- Custom Styling to make it feel premium -->
+  <style>
+    :root {
+      /* Slate 900 for a deep, premium accent replacing standard green */
+      --theme-color: #0f172a; 
+      --sidebar-width: 300px;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #334155;
+      line-height: 1.6;
+      background-color: #f8fafc;
+    }
+    .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .markdown-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .markdown-section h2 {
+      font-size: 1.75rem;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 0.5rem;
+      margin-top: 3rem;
+    }
+    
+    /* Sidebar styling for a cleaner look */
+    .sidebar {
+      background-color: #ffffff;
+      border-right: 1px solid #e2e8f0;
+      padding-top: 2rem;
+    }
+    .sidebar h1 {
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    .sidebar-nav a {
+      color: #475569;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+    .sidebar-nav a:hover, .sidebar-nav a.active {
+      color: var(--theme-color);
+      text-decoration: none;
+    }
+    .sidebar-toggle {
+      background: transparent;
+    }
+    
+    /* Content styling */
+    .markdown-section a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    .markdown-section a:hover {
+      text-decoration: underline;
+      color: #1d4ed8;
+    }
+    .markdown-section pre {
+      background-color: #0f172a;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    .markdown-section code {
+      color: #f8fafc;
+      font-family: 'Fira Code', monospace;
+    }
+    .markdown-section p code, .markdown-section li code {
+      background-color: #e2e8f0;
+      color: #0f172a;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.875em;
+    }
+    .markdown-section blockquote {
+      border-left: 4px solid #cbd5e1;
+      color: #64748b;
+      background: #f1f5f9;
+      padding: 1rem 1.5rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+    
+    /* Custom Badge Styles */
+    .badge {
+      display: inline-block;
+      padding: 0.35em 0.7em;
+      font-size: 0.75rem;
+      font-weight: 600;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 9999px; /* Pill shape */
+      background-color: #e2e8f0;
+      color: #1e293b;
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .badge-primary { background-color: #eff6ff; color: #1d4ed8; }
+    .badge-success { background-color: #f0fdf4; color: #15803d; }
+  </style>
+</head>
+<body>
+  <div id="app">Loading portfolio...</div>
+  <script>
+    window.$docsify = {
+      name: 'Akshai Vinu K',
+      repo: '', // Add your GitHub repo URL here to show a GitHub corner snippet
+      loadSidebar: true,
+      subMaxLevel: 2, // Auto-generates sidebar links from h2 headers
+      auto2top: true, // Smooth scroll to top when changing routes
+      themeColor: '#0f172a',
+      
+      // Search Plugin Configuration
+      search: {
+        maxAge: 86400000, // Expiration time in ms (1 day)
+        paths: 'auto',
+        placeholder: 'Search documentation...',
+        noData: 'No Results Found',
+        depth: 2,
+        hideOtherSidebarContent: false,
+      },
+      
+      // Pagination Plugin
+      pagination: {
+        previousText: 'Previous Page',
+        nextText: 'Next Page',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+    }
+  </script>
+  
+  <!-- Core Docsify Script -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  
+  <!-- Search Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  
+  <!-- Zoom Image Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  
+  <!-- Copy to Clipboard Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+  <!-- Pagination Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
