@@ -1,13 +1,14 @@
 <!-- _sidebar.md -->
 
-* **Overview**
-  * [Introduction](/README.md)
-  * [Experience](/experience/README.md)
-  * [Skills & Stack](/skills/README.md)
+* 📁 **experience**
+  * [📄 README.md](/experience/README.md)
 
-* **Case Studies**
-  * [InternTribe](/projects/interntribe.md)
-  * [Netflix Clone](/projects/netflix-clone.md)
+* 📁 **projects**
+  * [📄 interntribe.md](/projects/interntribe.md)
+  * [📄 netflix-clone.md](/projects/netflix-clone.md)
 
-* **Contact**
-  * [Get in touch](/contact.md)
+* 📁 **skills**
+  * [📄 README.md](/skills/README.md)
+
+* [📄 contact.md](/contact.md)
+* [📄 README.md](/README.md)

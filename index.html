@@ -12,26 +12,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- Docsify Theme: Vue (Clean and Minimal) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- Docsify Theme: Dark (VS Code style) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
   
-  <!-- Custom Styling to make it feel premium -->
+  <!-- Custom Styling to make it feel premium & VS Code-like -->
   <style>
     :root {
-      /* Slate 900 for a deep, premium accent replacing standard green */
-      --theme-color: #0f172a; 
-      --sidebar-width: 300px;
+      --theme-color: #007acc; /* VS Code blue accent */
+      --sidebar-width: 260px;
     }
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: #334155;
+      font-family: 'Inter', Consolas, "Courier New", monospace;
+      background-color: #1e1e1e; /* VS Code pure dark background */
+      color: #d4d4d4;
       line-height: 1.6;
-      background-color: #f8fafc;
     }
     .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4 {
       font-family: 'Inter', sans-serif;
       font-weight: 600;
-      color: #0f172a;
+      color: #ffffff;
       letter-spacing: -0.02em;
     }
     .markdown-section h1 {
@@ -40,67 +39,91 @@
     }
     .markdown-section h2 {
       font-size: 1.75rem;
-      border-bottom: 1px solid #e2e8f0;
+      border-bottom: 1px solid #333333;
       padding-bottom: 0.5rem;
       margin-top: 3rem;
     }
     
-    /* Sidebar styling for a cleaner look */
+    /* Sidebar styling: Matches VS Code File Explorer */
     .sidebar {
-      background-color: #ffffff;
-      border-right: 1px solid #e2e8f0;
-      padding-top: 2rem;
+      background-color: #252526; /* VS Code sidebar dark grey */
+      border-right: 1px solid #333333;
+      padding-top: 1rem;
     }
     .sidebar h1 {
       font-weight: 700;
-      font-size: 1.25rem;
+      font-size: 1rem;
+      color: #cccccc;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
-    .sidebar-nav a {
-      color: #475569;
-      font-weight: 500;
-      transition: color 0.15s ease;
+    .sidebar-nav ul li a {
+      color: #cccccc;
+      font-size: 0.9rem;
+      font-weight: normal;
+      transition: all 0.15s ease;
+      display: flex;
+      align-items: center;
+      padding: 4px 8px;
     }
-    .sidebar-nav a:hover, .sidebar-nav a.active {
-      color: var(--theme-color);
+    .sidebar-nav a:hover {
+      background-color: #37373d; /* VS Code hover highlight */
+      color: #ffffff;
+      border-radius: 4px;
       text-decoration: none;
+    }
+    .sidebar-nav ul li.active > a {
+      background-color: #37373d;
+      color: #ffffff;
+      border-left: 2px solid var(--theme-color);
+      border-radius: 2px;
     }
     .sidebar-toggle {
       background: transparent;
     }
+
+    /* Remove default docsify list bullets in sidebar for cleaner file tree look */
+    .sidebar-nav ul {
+      list-style-type: none;
+      padding-left: 1rem;
+    }
+    .sidebar-nav > ul {
+      padding-left: 0;
+    }
     
     /* Content styling */
     .markdown-section a {
-      color: #2563eb;
+      color: #4daafc; /* Light blue links */
       text-decoration: none;
       font-weight: 500;
       transition: color 0.2s ease;
     }
     .markdown-section a:hover {
       text-decoration: underline;
-      color: #1d4ed8;
+      color: #7cd6fa;
     }
     .markdown-section pre {
-      background-color: #0f172a;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      background-color: #1a1a1a;
+      border: 1px solid #333333;
+      border-radius: 6px;
     }
     .markdown-section code {
-      color: #f8fafc;
-      font-family: 'Fira Code', monospace;
+      color: #ce9178; /* VS Code orange-ish string color */
+      font-family: Consolas, 'Fira Code', monospace;
     }
     .markdown-section p code, .markdown-section li code {
-      background-color: #e2e8f0;
-      color: #0f172a;
+      background-color: #2d2d30;
+      color: #9cdcfe; /* VS Code light blue variable color */
       padding: 0.2rem 0.4rem;
       border-radius: 4px;
       font-size: 0.875em;
     }
     .markdown-section blockquote {
-      border-left: 4px solid #cbd5e1;
-      color: #64748b;
-      background: #f1f5f9;
+      border-left: 4px solid var(--theme-color);
+      color: #999999;
+      background: #252526;
       padding: 1rem 1.5rem;
-      border-radius: 0 8px 8px 0;
+      border-radius: 0 4px 4px 0;
       margin: 1.5rem 0;
     }
     
@@ -114,14 +137,15 @@
       text-align: center;
       white-space: nowrap;
       vertical-align: baseline;
-      border-radius: 9999px; /* Pill shape */
-      background-color: #e2e8f0;
-      color: #1e293b;
+      border-radius: 4px; /* Squarer badges for VS code look */
+      background-color: #333333;
+      color: #ffffff;
       margin-right: 0.5em;
       margin-bottom: 0.5em;
+      border: 1px solid #444444;
     }
-    .badge-primary { background-color: #eff6ff; color: #1d4ed8; }
-    .badge-success { background-color: #f0fdf4; color: #15803d; }
+    .badge-primary { background-color: #0e639c; color: #ffffff; border-color: #1177bb; }
+    .badge-success { background-color: #0d3a1e; color: #ffffff; border-color: #156230; }
   </style>
 </head>
 <body>
