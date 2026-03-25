@@ -1,27 +1,28 @@
-# 🛠️ Skills
+# ⚙️ Skills
 
-### Frontend
-<div style="margin-bottom: 24px; margin-top: 12px;">
-  <span class="badge">HTML5</span>
-  <span class="badge">CSS3</span>
-  <span class="badge">Bootstrap</span>
-  <span class="badge">Material UI</span>
-  <span class="badge">Tailwind CSS</span>
-  <span class="badge">JavaScript (ES6+)</span>
-  <span class="badge">React</span>
-  <span class="badge">Next.js</span>
-</div>
+**👨‍💻 Languages**
+<p style="margin-top:8px; margin-bottom:24px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40" style="margin-right: 12px;" title="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" style="margin-right: 12px;" title="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" height="40" style="margin-right: 12px;" title="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" height="40" style="margin-right: 12px;" title="CSS3" />
+</p>
 
-### Backend
-<div style="margin-bottom: 24px; margin-top: 12px;">
-  <span class="badge">Python</span>
-  <span class="badge">FastAPI</span>
-  <span class="badge">Node.js</span>
-  <span class="badge">Express</span>
-</div>
+**🛠️ Technologies**
+<p style="margin-top:8px; margin-bottom:24px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40" height="40" style="margin-right: 12px;" title="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="40" height="40" style="margin-right: 12px; background: white; border-radius: 5px;" title="Next.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40" height="40" style="margin-right: 12px;" title="Node.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="40" height="40" style="margin-right: 12px; background: white; border-radius: 5px; padding: 2px;" title="Express" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" width="40" height="40" style="margin-right: 12px;" title="FastAPI" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40" style="margin-right: 12px;" title="Tailwind CSS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="40" height="40" style="margin-right: 12px;" title="Bootstrap" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" width="40" height="40" style="margin-right: 12px;" title="Material UI" />
+</p>
 
-### Database
-<div style="margin-bottom: 24px; margin-top: 12px;">
-  <span class="badge">MySQL</span>
-  <span class="badge">MongoDB</span>
-</div>
+**🗄️ Databases & Tools**
+<p style="margin-top:8px; margin-bottom:24px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" height="40" style="margin-right: 12px;" title="MySQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="40" height="40" style="margin-right: 12px;" title="MongoDB" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40" style="margin-right: 12px;" title="Git" />
+</p>
